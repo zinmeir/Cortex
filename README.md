@@ -8,7 +8,7 @@ Plans tasks, selects tools, executes steps, self-corrects, and maintains persist
 ## Architecture
 
 ```
-agent_os/
+Cortex/
 ├── app/
 │   ├── agent/
 │   │   ├── core.py          # Orchestrator — full cognitive loop
