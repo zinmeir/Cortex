@@ -1,7 +1,7 @@
-# 🤖 Agent OS — General Purpose Autonomous Agent
+# Cortex: A General Purpose Autonomous Agent
 
 A production-ready, modular autonomous agent system built in Python.  
-Plans tasks, selects tools, executes steps, self-corrects, and maintains persistent memory — all driven by any OpenAI-compatible LLM.
+Plans tasks, selects tools, executes steps, self-corrects, and maintains persistent memory. All driven by any OpenAI-compatible LLM.
 
 ---
 
