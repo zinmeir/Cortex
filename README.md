@@ -1,4 +1,4 @@
-# Cortex: A General Purpose Autonomous Agent
+# Cortex: An Autonomous Agent That Thinks, Acts, and Remembers
 
 A production-ready, modular autonomous agent system built in Python.  
 Plans tasks, selects tools, executes steps, self-corrects, and maintains persistent memory. All driven by any OpenAI-compatible LLM.
