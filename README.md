@@ -1,7 +1,7 @@
 # Cortex: An Autonomous Agent That Thinks, Acts, and Remembers
 
-A production-ready, modular autonomous agent system built in Python.  
-Plans tasks, selects tools, executes steps, self-corrects, and maintains persistent memory. All driven by any OpenAI-compatible LLM.
+Give it a goal. Cortex figures out the rest. It plans, picks tools, runs code, searches the web, fixes failures, and remembers what worked, all driven by any OpenAI-compatible LLM.
+
 
 ---
 
