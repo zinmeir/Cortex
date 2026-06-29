@@ -1,0 +1,25 @@
+# Sample Task 1 — Code Debugging + Explanation
+
+Task:
+Fix the following Python bug and explain what was wrong:
+
+```python
+def calculate_average(numbers):
+    total = 0
+    for num in numbers:
+        total += num
+    return total / len(numbers)
+
+result = calculate_average([])
+print(f"Average: {result}")
+```
+
+Expected agent behavior:
+1. Analyze the code statically
+2. Identify the ZeroDivisionError (empty list → len([]) = 0)
+3. Write a corrected version with guard clause
+4. Run the fixed code to verify it works
+5. Explain the bug and the fix clearly
+
+To run:
+  python run.py -t "Fix this Python bug and explain: def calculate_average(numbers): total=0 \n for num in numbers: total+=num \n return total/len(numbers) \n result=calculate_average([]) \n print(result)"

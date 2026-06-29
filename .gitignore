@@ -1,0 +1,42 @@
+# Environment
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Data (generated at runtime — don't commit)
+data/vector_store/index.faiss
+data/vector_store/documents.json
+data/episodic_store.json
+
+# Workspace files
+workspace/*
+!workspace/.gitkeep
+
+# Logs
+logs/
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo

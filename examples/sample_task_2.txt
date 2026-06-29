@@ -1,0 +1,15 @@
+# Sample Task 2 — Research + Summary
+
+Task:
+Research what FAISS is, explain its core data structures, and write a Python
+snippet showing how to build a simple similarity search index.
+
+Expected agent behavior:
+1. Search for FAISS documentation / overview
+2. Synthesize the key concepts (IndexFlatL2, IndexIVFFlat, etc.)
+3. Write a working Python demo using faiss-cpu
+4. Run the demo to verify output
+5. Produce a clean technical summary
+
+To run:
+  python run.py -t "Research what FAISS is, explain its core data structures, and write a working Python snippet demonstrating similarity search"
